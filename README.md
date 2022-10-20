@@ -1,5 +1,7 @@
 ## Getting Started
 
+-- Solution is in file `solution.rb`
+
 To get a local copy of the project, follow these steps:
 
 1. Open the terminal and navigate to the folder where you would like to put these files.
