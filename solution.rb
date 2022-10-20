@@ -36,3 +36,27 @@ def calc_total(lines)
   puts 'Sales Taxes: ' + global_tax.round(2).to_s
   puts 'Total: ' + global_total.round(2).to_s
 end
+
+
+lines_1 = [
+  '2 book at 12.49',
+  '1 music CD at 14.99',
+  '1 chocolate bar at 0.85',
+]
+lines_2 = [
+  '1 imported box of chocolates at 10.00',
+  '1 imported bottle of perfume at 47.50'
+]
+lines_3 = [
+  '1 imported bottle of perfume at 27.99',
+  '1 bottle of perfume at 18.99',
+  '1 packet of headache pills at 9.75',
+  '3 imported boxes of chocolates at 11.25'
+]
+
+puts calc_total(lines_1)
+puts '-----------------'
+puts calc_total(lines_2)
+puts '-----------------'
+puts calc_total(lines_3)
+puts '-----------------'
